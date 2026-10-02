@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', 'Segoe UI';
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #6C727F;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title-page {
+    color: #000000;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.card {
+    border: 1px solid #E5E7EB;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 25px;
+    box-shadow: 5px 6px 11px 6px #E5E7EB;
+}
+
+.email {
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 1rem;
+    outline: none;
+    border: 1.5px solid #E5E7EB;
+    margin-bottom: 25px;
+}
+
+.email::placeholder {
+    color: #394150;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 20px 15px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #284BCE;
+    border: 1.5px solid #284BCE;
+    border-radius: 1rem;
+    margin-bottom: 25px;
+}
+
+.confidentiality {
+    font-size: 0.78rem;
+    color: #394150;
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+@media (min-width: 750px) {
+    .body {
+        padding: 40px;
+    }
+    .title-page {
+        color: #000000;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    .description {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 60px;
+    }
+    .card {
+        border: 1px solid #E5E7EB;
+        width: 75%;
+        border-radius: 1rem;
+        padding: 25px;
+        box-shadow: 5px 6px 11px 6px #E5E7EB;
+    }
+}
